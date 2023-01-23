@@ -17,7 +17,7 @@ methods = {
 }
 
 # Change file to analyse other metrics
-scores = np.load('results_f1score.npy')
+scores = np.load('results_precision.npy')
 print("\nScores:\n", scores.shape)
 
 
